@@ -7,6 +7,10 @@ public class PrimeNumbers {
 		if (number < 2) {
 			return false;
 		}
+		
+		if (number == 2) {
+			return true;
+		}
 
 		int i = 2;
 		
@@ -53,7 +57,7 @@ public class PrimeNumbers {
 		PrimeNumbers primeNumbers = new PrimeNumbers();
 		
 		gestorIO.out("suma de los primeros 50 primos: " + primeNumbers.addFirstPrimes(50) + "\n");
-		gestorIO.out("suma de los primos en los 50 primeros números: " + primeNumbers.addPrimesInFirst(50) + "\n");
+		gestorIO.out("suma de los primos en los 50 primeros nÃºmeros: " + primeNumbers.addPrimesInFirst(50) + "\n");
 		
 	}
 }
